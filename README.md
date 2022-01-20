@@ -2,7 +2,7 @@ git init
 
 grpc boiler template
 
-#1 Setting
+## 1 Setting
 
 1. golang 
 ```
@@ -17,7 +17,7 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 ```
 
 
-#2 시작하기
+## 2 시작하기
 1. proto 작성
 > /greet/greetpb/greet.proto 
 ./generate.sh
