@@ -14,6 +14,7 @@ go env 로 GOPATH 확인필요
 brew install clang-format  
 go get -u github.com/golang/protobuf/protoc-gen-go
 go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
+flutter pub global activate protoc_plugin   //flutter grpc 사용시 
 ```
 
 
